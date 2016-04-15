@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
   s.files = `git ls-files lib README.md`.split($INPUT_RECORD_SEPARATOR)
 
-  s.add_runtime_dependency 'rspec', '~> 3.0'
+  s.add_runtime_dependency 'rspec', '>= 3.0'
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'bundler'
